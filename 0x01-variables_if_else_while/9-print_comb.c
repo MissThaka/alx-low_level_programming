@@ -9,7 +9,6 @@ while (c < 10)
 if (c != 9)
 {
 putchar(',');
-putchar('');
 }
 c++;
 }
