@@ -1,7 +1,16 @@
 #include "main.h"
-/*Write a program that prints _putchar, followed by a new line.*/
-
-int _putchar(char c)
+/**
+ * print_alphabet -entry point
+ * Return (0)
+ */
+void print_alphabet(void)
 {
-return (write(1, &c, 1));
+char c = 'a';
+while (c <= 'z')
+{
+_putchar(c);
+c++;
+}
+_putchar('\n');
+return (0);
 }
