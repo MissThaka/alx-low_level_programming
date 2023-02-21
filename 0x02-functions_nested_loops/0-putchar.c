@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include "main.h"
 /*Write a program that prints _putchar, followed by a new line.*/
 
 int _putchar(char c)
