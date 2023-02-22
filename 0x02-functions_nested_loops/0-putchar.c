@@ -5,11 +5,13 @@
  */
 int main(void)
 {
-char c = 'a';
+char c = "letter";
 while (c <= 'z')
 {
-_putchar(c);
+_putchar(letter);
 c++;
 }
 _putchar('\n');
+
+return (0);
 }
